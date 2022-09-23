@@ -57,6 +57,7 @@ RUN apt-get update \
         lsb-release \
         xdg-utils \
         wget \
+        xvfb \
     && wget https://github.com/Yelp/dumb-init/releases/download/v1.2.2/dumb-init_1.2.2_amd64.deb \
     && dpkg -i dumb-init_*.deb \
     && rm -f dumb-init_*.deb \
