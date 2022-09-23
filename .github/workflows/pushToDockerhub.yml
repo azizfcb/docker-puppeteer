@@ -38,5 +38,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: azaz55/docker-puppeteer:latest
           labels: ${{ steps.meta.outputs.labels }}
